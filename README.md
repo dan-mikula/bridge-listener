@@ -9,8 +9,16 @@ pip install -r requirments.txt
 ```
 
 ### Usage
-Rename `.envexample` to `.env` and set up your private keys and keys for infura/alchemy (or whatever provider you use).<br /><br />
-Rename `config-example.yaml` to `config.yaml` and add the addresses of your tokens and bridge contracts on the respective networks.<br /><br />
+Rename `.envexample` to `.env`.
+```
+mv .envexample .env
+```
+Set up your private keys and keys for infura/alchemy (or whatever provider you use).<br /><br />
+Rename `config-example.yaml` to `config.yaml`.
+```
+mv config-example.yaml config.yaml
+```
+Add the addresses of your tokens and bridge contracts on the respective networks.<br /><br />
 Run the listener with:
 ```
 python src/listener/
