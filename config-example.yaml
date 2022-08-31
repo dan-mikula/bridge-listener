@@ -1,0 +1,12 @@
+web3_urls:
+  mainnet_url: 'https://goerli.infura.io/v3/'
+  polygon_url: 'https://polygon-mumbai.g.alchemy.com/v2/'
+contracts:
+  mainnet_bridge: '0x'
+  polygon_bridge: '0x'
+  mainnet_usdc_token: '0x'
+  polygon_usdc_bridged_token: '0x'
+web3_keys:
+  infura_key: ${WEB3_INFURA_KEY}
+  alchemy_key: ${WEB3_ALCHEMY_KEY}
+gateway: ${GATEWAY_KEY}
